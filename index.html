@@ -541,7 +541,7 @@
     <!-- Sincere "Sorry Dipu" Typography with Ethereal Blue Glow -->
     <div id="sorry-box" class="sorry-container">
       <div class="sorry-title">Sorry Dipu<span class="heart-glyph">♥</span></div>
-      <div class="sorry-subtitle">From the deepest corner of my heart</div>
+      <div class="sorry-subtitle">With all my heart, forever yours — Pruthviraj</div>
     </div>
 
     <!-- Bottom Controls (Replay & Write Letter) -->
@@ -554,7 +554,7 @@
       </button>
 
       <button id="open-letter-bottom" class="glass-btn accent-letter" aria-label="Write or read letter">
-        <span>💌 Read / Edit Letter</span>
+        <span>💌 Pruthviraj's Letter for Dipu</span>
       </button>
     </div>
 
@@ -565,16 +565,19 @@
         
         <div class="letter-header">
           <div class="letter-to">Dear Dipu,</div>
-          <div class="letter-date">Written with all my heart</div>
+          <div class="letter-date">Written with all my heart by Pruthviraj</div>
         </div>
 
         <!-- User can click and edit this text freely! -->
         <div id="letter-content" class="letter-body" contenteditable="true" spellcheck="false">
 I am truly, deeply sorry from the bottom of my heart.
 
-I never ever intended to hurt you or bring sadness to your face. You mean the entire world to me, and every smile of yours lights up my sky like these blooming flowers.
+I never ever wanted to hurt you or bring sadness to your face. You mean the entire world to me, and my days are completely empty without your smile. Every flower blooming here carries my love and a wish to make things right.
 
-Please forgive me, Dipu. Let's make things beautiful again. 💙
+Please forgive me, my Dipu. I love you so much. 💙
+
+— Forever yours,
+Pruthviraj
         </div>
 
         <div class="letter-hint">
@@ -1330,12 +1333,15 @@ Please forgive me, Dipu. Let's make things beautiful again. 💙
       // =========================================================
       // Interactive Editable Letter Management
       // =========================================================
-      const STORAGE_KEY = 'dipu_love_letter_v2';
+      const STORAGE_KEY = 'dipu_love_letter_v3';
       const DEFAULT_LETTER_TEXT = `I am truly, deeply sorry from the bottom of my heart.
 
-I never ever intended to hurt you or bring sadness to your face. You mean the entire world to me, and every smile of yours lights up my sky like these blooming flowers.
+I never ever wanted to hurt you or bring sadness to your face. You mean the entire world to me, and my days are completely empty without your smile. Every flower blooming here carries my love and a wish to make things right.
 
-Please forgive me, Dipu. Let's make things beautiful again. 💙`;
+Please forgive me, my Dipu. I love you so much. 💙
+
+— Forever yours,
+Pruthviraj`;
 
       // Load saved letter or default
       const savedLetter = localStorage.getItem(STORAGE_KEY);
